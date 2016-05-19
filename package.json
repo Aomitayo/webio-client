@@ -1,0 +1,32 @@
+{
+  "name": "webio-client",
+  "version": "0.0.1",
+  "description": "A toolkit for real time command query segregated data access",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha -r spec test/spec/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aomitayo/webio-client.git"
+  },
+  "keywords": [
+    "\"data",
+    "access",
+    "layer\"",
+    "\"real",
+    "time\""
+  ],
+  "author": "Adedayo Omitayo <adedayo.omitayo@flowswift.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aomitayo/webio-client/issues"
+  },
+  "homepage": "https://github.com/Aomitayo/webio-client#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
